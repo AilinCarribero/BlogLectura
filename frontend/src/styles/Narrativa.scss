@@ -1,0 +1,38 @@
+@import 'estandar.scss';
+
+.content-text-narrativa {
+    color: #fff;
+    padding: 20px 5vw 40px 5vw; 
+
+    .titulo-text-narrativa {
+        padding-left: 30px;
+        font-size: 30px;
+        font-family: 'Vescona', sans-serif;
+    }
+
+    .fecha-text-narrativa {
+        padding-top: 5px;
+        padding-right: 20px;
+        font-size: 13px;
+        text-align: right;
+    }
+
+    .historia-text-narrativa {
+        margin-top: 20px;
+        padding-left: 3.5vw;
+        padding-right: 3vw;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: $colorHojaText;
+        border-radius: 10px;
+        font-size: 14px;
+        color: #000;
+        text-align: justify;
+
+        #primer-letra {
+            font-size: 40px;
+            font-family: 'Unfair Shares', sans-serif;
+            line-height: 0;
+        }
+    }
+}

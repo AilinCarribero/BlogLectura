@@ -1,0 +1,71 @@
+@import url('http://fonts.cdnfonts.com/css/allejo'); //font-family: 'Allejo', sans-serif;
+@import url('http://fonts.cdnfonts.com/css/vescona'); //font-family: 'Vescona', sans-serif;
+@import url('http://fonts.cdnfonts.com/css/unfair-shares'); //font-family: 'Unfair Shares', sans-serif;
+@import "estandar.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    font-family: 'Allejo', sans-serif;
+}
+
+.container-app {
+    background-image: linear-gradient(32deg, rgba(71, 88, 182, 0.9) 15%, rgba(128, 105, 219, 0.86) 33%, rgba(252, 154, 242, 0.87) 46%, rgba(220, 135, 255, 0.92) 67%, rgba(85, 41, 165, 0.91) 82%);
+    min-height: 100vh;
+}
+
+.conteiner-component {
+    width: 100%;
+}
+
+input {
+    border: transparent;
+    background-color: transparent;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.conteiner-form {
+    position: relative;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+
+    .titulo-form {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-family: 'Vescona', sans-serif;
+    }
+
+    .text-field-mui {
+        width: 80vw;
+        max-width: 350px;   
+        margin: 10px;
+    }
+
+    .button-form {
+        border: solid 2px $colorFucsia;
+        border-radius: 20px;
+        padding: 2px 30px;
+        margin-top: 20px;
+
+        &:hover {
+            background-color: $colorPinckClaro;
+            cursor: pointer;
+        }
+    }
+}
